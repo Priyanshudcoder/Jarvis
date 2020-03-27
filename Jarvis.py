@@ -105,3 +105,6 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend harry bhai. I am not able to send this email")
+
+        elif 'exit' in query:
+            os._exit()
