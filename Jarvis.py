@@ -6,7 +6,6 @@ import webbrowser
 import os
 import smtplib
 
-
 def speak(str):
     speak = Dispatch(("SAPI.SpVoice"))
     speak.speak(str)
@@ -103,7 +102,7 @@ if __name__ == "__main__":
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
-                print(e)
+                # print(e)
                 speak("Sorry my friend harry bhai. I am not able to send this email")
 
         elif 'exit' in query:
