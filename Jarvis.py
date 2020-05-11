@@ -1,5 +1,5 @@
 from win32com.client import Dispatch
-import speech_recognition as sr
+import speech_recognition as sr  # pip install speechrecognition
 import datetime
 import wikipedia
 import webbrowser
