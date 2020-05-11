@@ -7,6 +7,7 @@ import os
 import smtplib
 
 
+
 def speak(str):
     speak = Dispatch(("SAPI.SpVoice"))
     speak.speak(str)
