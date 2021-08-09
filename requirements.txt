@@ -1,4 +1,4 @@
 wikipedia
-pywin32==225
+pywin32==301
 SpeechRecognition==3.8.1
 speech_recognition
